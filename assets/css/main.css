@@ -2213,7 +2213,6 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2526,11 +2525,11 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-color: #e9b8c9;
+		background-image: url("../../images/FalkorDeck.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2593,7 +2592,6 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2619,24 +2617,6 @@ input, select, textarea {
 	body.index #main {
 		padding-top: 5em;
 	}
-
-/* CTA */
-
-	#cta {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
-		color: #fff;
-		padding: 5em;
-		text-align: center;
-	}
-
-		#cta header {
-			margin-bottom: 2em;
-		}
 
 /* Footer */
 
@@ -3339,3 +3319,9 @@ input, select, textarea {
 			}
 
 	}
+	.icons .icon {
+	    color: #e9b8c9 !important;
+	}
+	.icons .icon:hover {
+    color: #31241f !important; /* or any accent color */
+}
